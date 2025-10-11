@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/lukeliu-portfolio/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lukeliu-react</title>
+    <script>
+      // Initialize theme immediately to prevent flash
+      (function() {
+        const savedTheme = localStorage.getItem('dark');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const shouldBeDark = savedTheme ? savedTheme === 'true' : prefersDark;
+        
+        if (shouldBeDark) {
+          document.documentElement.classList.add('dark');
+        }
+        
+        // Update meta theme color
+        const metaTheme = document.querySelector('meta[name="theme-color"]');
+        if (metaTheme) {
+          metaTheme.setAttribute('content', shouldBeDark ? '#000' : '#faf8f1');
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/lukeliu-portfolio/assets/index-etZMYMIO.js"></script>
+    <link rel="stylesheet" crossorigin href="/lukeliu-portfolio/assets/index-xgvkWcEv.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
