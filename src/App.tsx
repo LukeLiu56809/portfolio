@@ -12,7 +12,7 @@ import EmbeddedProject from './pages/EmbeddedProject';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/lukeliu-portfolio">
       <div className="text-black duration-200 ease-out dark:text-white">
         <Header />
         <Routes>
