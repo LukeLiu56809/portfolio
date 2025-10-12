@@ -4,7 +4,7 @@ const SharkProject: React.FC = () => {
   useEffect(() => {
     document.title = 'Shark!!!! - Luke Liu';
     return () => {
-      document.title = 'lukeliu-react';
+      document.title = 'lukeliu';
     };
   }, []);
 

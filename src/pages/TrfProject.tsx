@@ -9,7 +9,7 @@ const TrfProject: React.FC = () => {
     
     // Cleanup function to restore original title when component unmounts
     return () => {
-      document.title = 'lukeliu-react';
+      document.title = 'lukeliu';
     };
   }, []);
 

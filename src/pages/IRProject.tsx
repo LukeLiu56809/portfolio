@@ -4,7 +4,7 @@ const IRProject: React.FC = () => {
   useEffect(() => {
     document.title = 'IR Data Synthesis - Luke Liu';
     return () => {
-      document.title = 'lukeliu-react';
+      document.title = 'lukeliu';
     };
   }, []);
 

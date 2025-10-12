@@ -4,7 +4,7 @@ const BLVProject: React.FC = () => {
   useEffect(() => {
     document.title = 'Accessible Presentation Interfaces - Luke Liu';
     return () => {
-      document.title = 'lukeliu-react';
+      document.title = 'lukeliu';
     };
   }, []);
 

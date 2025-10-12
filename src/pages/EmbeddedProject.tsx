@@ -6,7 +6,7 @@ const EmbeddedProject: React.FC = () => {
   useEffect(() => {
     document.title = 'Embedded Systems Projects - Luke Liu';
     return () => {
-      document.title = 'lukeliu-react';
+      document.title = 'lukeliu';
     };
   }, []);
 

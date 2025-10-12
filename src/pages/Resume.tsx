@@ -4,7 +4,7 @@ const Resume: React.FC = () => {
   useEffect(() => {
     document.title = 'CV - Luke Liu';
     return () => {
-      document.title = 'lukeliu-react';
+      document.title = 'lukeliu';
     };
   }, []);
 
