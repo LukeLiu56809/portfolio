@@ -6,7 +6,7 @@ const Introduction: React.FC = () => {
       <div className="introduction-content">
         <h2>Hullo</h2>
         <p style={{ marginBottom: '1rem' }}>
-        I'm a first-year MSc in Computer Science at the University of Rochester, doing research in HCI and AI to create more accessible and intuitive user experiences.
+        I'm a first-year MS student in Computer Science at the University of Rochester, doing research in HCI and AI to create more accessible and intuitive user experiences.
         </p>
         <p>
         Previously, I earned my B.S. in Electrical & Computer Engineering at the University of Washington, focusing my research on computer vision and bioinformatics.
