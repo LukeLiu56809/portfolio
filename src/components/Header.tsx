@@ -34,7 +34,7 @@ const Header: React.FC = () => {
     if (location.pathname === '/embedded') {
       return 'Silly Embedded Projects';
     }
-    if (location.pathname === '/resume') {
+    if (location.pathname === '/cv') {
       return 'CV';
     }
     return 'luke liu';
@@ -45,7 +45,7 @@ const Header: React.FC = () => {
     const title = getPageTitle();
     
     // Apply wave animation to all project pages and CV page
-    if (['/gobot', '/trf', '/shark', '/ir', '/blv', '/embedded', '/resume'].includes(location.pathname)) {
+    if (['/gobot', '/trf', '/shark', '/ir', '/blv', '/embedded', '/cv'].includes(location.pathname)) {
       // Split into individual letters and spaces
       const letters = title.split('').map((char, index) => (
         <span key={index} className="wave-letter">
@@ -109,8 +109,8 @@ const Header: React.FC = () => {
                 home
               </Link>
               <Link 
-                to="/resume" 
-                className={`nav-link ${location.pathname === '/resume' ? 'nav-link-active' : ''}`}
+                to="/cv" 
+                className={`nav-link ${location.pathname === '/cv' ? 'nav-link-active' : ''}`}
               >
                 CV
               </Link>
