@@ -20,7 +20,7 @@ const GobotProject: React.FC = () => {
               I worked with <u><a href="https://www.utmb.edu/spph/muhammad-amith-ms-phd" target="_blank" rel="noopener noreferrer">Professor Muhammad Amith</a></u> on this project in 2023, building <u><a href="https://github.com/UTHealth-Ontology/GOBOT" target="_blank" rel="noopener noreferrer">GOBOT</a></u> to improve the accessibility of <u><a href="https://robot.obolibrary.org/" target="_blank" rel="noopener noreferrer">ROBOT</a></u>.
             </p>
             <p>
-              We presented our work at <u><a href="https://ieeexplore.ieee.org/xpl/conhome/10628445/proceeding" target="_blank" rel="noopener noreferrer">IEEE ICHI</a></u> in June, 2024.
+              We presented our <u><a href="https://www.computer.org/csdl/proceedings-article/ichi/2024/837300a547/1ZCgVqIb6uY" target="_blank" rel="noopener noreferrer">work</a></u> at IEEE ICHI in June, 2024.
             </p>
             
             <div className="project-image-section">
