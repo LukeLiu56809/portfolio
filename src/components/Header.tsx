@@ -16,22 +16,22 @@ const Header: React.FC = () => {
 
   // Get the appropriate title based on the current route
   const getPageTitle = () => {
-    if (location.pathname === '/projects/gobot') {
+    if (location.pathname === '/gobot') {
       return 'GOBOT';
     }
-    if (location.pathname === '/projects/trf') {
+    if (location.pathname === '/trf') {
       return 'tRFs in Alzheimer\'s Disease';
     }
-    if (location.pathname === '/projects/shark') {
+    if (location.pathname === '/shark') {
       return 'Shark!!!!';
     }
-    if (location.pathname === '/projects/ir') {
+    if (location.pathname === '/ir') {
       return 'IR Data Synthesis';
     }
-    if (location.pathname === '/projects/blv') {
+    if (location.pathname === '/blv') {
       return 'Accessible Presentation Interfaces';
     }
-    if (location.pathname === '/projects/embedded') {
+    if (location.pathname === '/embedded') {
       return 'Silly Embedded Projects';
     }
     if (location.pathname === '/resume') {
@@ -45,7 +45,7 @@ const Header: React.FC = () => {
     const title = getPageTitle();
     
     // Apply wave animation to all project pages and CV page
-    if (location.pathname.startsWith('/projects/') || location.pathname === '/resume') {
+    if (['/gobot', '/trf', '/shark', '/ir', '/blv', '/embedded', '/resume'].includes(location.pathname)) {
       // Split into individual letters and spaces
       const letters = title.split('').map((char, index) => (
         <span key={index} className="wave-letter">
@@ -92,29 +92,30 @@ const Header: React.FC = () => {
                 border: 'none',
                 outline: 'none',
                 minWidth: '2.5rem',
-                minHeight: '2.5rem'
+                minHeight: '2.5rem',
+                transform: 'translateY(0.2rem)'
               }}
               aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
               onClick={toggleDarkMode}
             />
           </div>
 
-                  <div className="header-right">
-                    <nav className="nav-right">
-                      <Link 
-                        to="/" 
-                        className={`nav-link ${location.pathname === '/' ? 'nav-link-active' : ''}`}
-                      >
-                        home
-                      </Link>
-                      <Link 
-                        to="/resume" 
-                        className={`nav-link ${location.pathname === '/resume' ? 'nav-link-active' : ''}`}
-                      >
-                        CV
-                      </Link>
-                    </nav>
-                  </div>
+          <div className="header-right">
+            <nav className="nav-right">
+              <Link 
+                to="/" 
+                className={`nav-link ${location.pathname === '/' ? 'nav-link-active' : ''}`}
+              >
+                home
+              </Link>
+              <Link 
+                to="/resume" 
+                className={`nav-link ${location.pathname === '/resume' ? 'nav-link-active' : ''}`}
+              >
+                CV
+              </Link>
+            </nav>
+          </div>
         </div>
         
         <div className="line"></div>

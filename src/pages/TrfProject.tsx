@@ -57,7 +57,7 @@ const TrfProject: React.FC = () => {
             
             <div className="project-image-section">
               <img 
-                src="/inhan.png" 
+                src="/portfolio/inhan.png" 
                 alt="Dr. Inhan Lee" 
                 className="project-image"
               />
@@ -102,7 +102,7 @@ const TrfProject: React.FC = () => {
               >
                 <div className="poster-tile-image">
                   <img 
-                    src="/PNGAAICposter.png" 
+                    src="/portfolio/PNGAAICposter.png" 
                     alt="AAIC Poster Preview" 
                     className="poster-preview"
                   />
@@ -131,7 +131,7 @@ const TrfProject: React.FC = () => {
               ×
             </button>
             <iframe 
-              src="/AAIC Poster Final.pdf" 
+              src="/portfolio/AAIC Poster Final.pdf" 
               width="100%" 
               height="100%"
               className="poster-modal-pdf"

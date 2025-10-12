@@ -25,7 +25,7 @@ const GobotProject: React.FC = () => {
             
             <div className="project-image-section">
               <img 
-                src="/robot_jasmine.jpg" 
+                src="/portfolio/robot_jasmine.jpg" 
                 alt="GOBOT Robot Artwork" 
                 className="project-image"
               />
@@ -52,7 +52,7 @@ const GobotProject: React.FC = () => {
             
             <div className="project-main-image-section">
               <img 
-                src="/GOBOT.png" 
+                src="/portfolio/GOBOT.png" 
                 alt="GOBOT Interface Screenshot" 
                 className="project-main-image"
               />

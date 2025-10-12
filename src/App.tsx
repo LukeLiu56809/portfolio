@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
@@ -12,18 +12,18 @@ import EmbeddedProject from './pages/EmbeddedProject';
 
 function App() {
   return (
-    <Router basename="/lukeliu-portfolio">
+    <Router basename="/">
       <div className="text-black duration-200 ease-out dark:text-white">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/projects/gobot" element={<GobotProject />} />
-          <Route path="/projects/trf" element={<TrfProject />} />
-          <Route path="/projects/shark" element={<SharkProject />} />
-          <Route path="/projects/ir" element={<IRProject />} />
-          <Route path="/projects/blv" element={<BLVProject />} />
-          <Route path="/projects/embedded" element={<EmbeddedProject />} />
+          <Route path="/gobot" element={<GobotProject />} />
+          <Route path="/trf" element={<TrfProject />} />
+          <Route path="/shark" element={<SharkProject />} />
+          <Route path="/ir" element={<IRProject />} />
+          <Route path="/blv" element={<BLVProject />} />
+          <Route path="/embedded" element={<EmbeddedProject />} />
         </Routes>
         <ScrollToTop />
       </div>

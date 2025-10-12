@@ -22,7 +22,7 @@ const SharkProject: React.FC = () => {
             
             <div className="project-image-section">
               <img 
-                src="/hwang_grad.png" 
+                src="/portfolio/hwang_grad.png" 
                 alt="Professor Jenq-Neng Hwang" 
                 className="project-image"
               />
@@ -45,8 +45,9 @@ const SharkProject: React.FC = () => {
             
             <div className="project-main-image-section" style={{ textAlign: 'center' }}>
               <video 
-                src="/Midline.mp4"
+                src="/portfolio/Midline.mp4"
                 controls
+                preload="metadata"
                 className="project-main-image"
                 style={{ maxWidth: '80%', display: 'block', margin: '0 auto' }}
               >
@@ -61,7 +62,7 @@ const SharkProject: React.FC = () => {
             
             <div className="project-main-image-section" style={{ textAlign: 'center' }}>
               <img 
-                src="/calibration.jpg" 
+                src="/portfolio/calibration.jpg" 
                 alt="Camera Calibration" 
                 className="project-main-image"
                 style={{ maxWidth: '80%', display: 'block', margin: '0 auto' }}

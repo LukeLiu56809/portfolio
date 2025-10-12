@@ -19,7 +19,7 @@ const EmbeddedProject: React.FC = () => {
          
          <div className="project-image-section">
            <img 
-             src="/glasses1.jpg" 
+             src="/portfolio/glasses1.jpg" 
              alt="Object Avoidance Glasses Prototype" 
              className="project-image"
            />
@@ -48,8 +48,9 @@ const EmbeddedProject: React.FC = () => {
 
          <div className="project-main-image-section" style={{ textAlign: 'center' }}>
            <video 
-             src="/glasses2.mov"
+             src="/portfolio/glasses2.mov"
              controls
+             preload="metadata"
              className="project-main-image"
              style={{ maxWidth: '80%', display: 'block', margin: '0 auto' }}
            >
@@ -83,8 +84,9 @@ const EmbeddedProject: React.FC = () => {
 
           <div className="project-main-image-section" style={{ textAlign: 'center' }}>
             <video 
-              src="/ipoddemo.MOV"
+              src="/portfolio/ipoddemo.MOV"
               controls
+              preload="metadata"
               className="project-main-image"
               style={{ maxWidth: '80%', display: 'block', margin: '0 auto' }}
             >

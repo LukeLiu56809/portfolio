@@ -22,7 +22,7 @@ const IRProject: React.FC = () => {
             
             <div className="project-image-section">
               <img 
-                src="/andy2.png" 
+                src="/portfolio/andy2.png" 
                 alt="Andy Cheng" 
                 className="project-image"
               />
@@ -30,7 +30,7 @@ const IRProject: React.FC = () => {
             
             <div className="project-image-section">
               <img 
-                src="/andy1.png" 
+                src="/portfolio/andy1.png" 
                 alt="Andy Cheng" 
                 className="project-image"
               />
@@ -53,7 +53,7 @@ const IRProject: React.FC = () => {
             
             <div className="project-main-image-section" style={{ textAlign: 'center' }}>
               <img 
-                src="/IRDemo.png" 
+                src="/portfolio/IRDemo.png" 
                 alt="Pipeline Output" 
                 className="project-main-image"
                 style={{ maxWidth: '80%', display: 'block', margin: '0 auto' }}
