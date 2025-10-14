@@ -98,10 +98,12 @@ p {
 
 .header-left .site-title {
   color: inherit;
+  transition: color 0.3s ease;
 }
 
 .header-left .wave-letter {
   color: inherit;
+  transition: color 0.3s ease;
 }
 
 .btn-dark {
