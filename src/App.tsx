@@ -9,6 +9,7 @@ import SharkProject from './pages/SharkProject';
 import IRProject from './pages/IRProject';
 import BLVProject from './pages/BLVProject';
 import EmbeddedProject from './pages/EmbeddedProject';
+import RoomSenseProject from './pages/RoomSenseProject';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/ir" element={<IRProject />} />
           <Route path="/blv" element={<BLVProject />} />
           <Route path="/embedded" element={<EmbeddedProject />} />
+          <Route path="/roomsense" element={<RoomSenseProject />} />
         </Routes>
         <ScrollToTop />
       </div>

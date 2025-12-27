@@ -19,34 +19,41 @@ const mockProjects: Project[] = [
   },
   {
     id: '2',
+    title: 'RoomSense',
+    description: 'AR-Enhanced Classroom Engagement System',
+    imageUrl: '/portfolio/snap_spectacles.JPG',
+    link: '/roomsense'
+  },
+  {
+    id: '3',
     title: 'IR Data Synthesis',
     description: 'Infrared Data Synthesis for Computer Vision using Vega Prime and Lynx Prime',
     imageUrl: '/portfolio/andy3.jpg',
     link: '/ir'
   },
   {
-    id: '3',
+    id: '4',
     title: 'Shark!!!!',
     description: 'Automated Fish Measurement for Electronic Monitoring',
     imageUrl: '/portfolio/hwang.jpg',
     link: '/shark'
   },
   {
-    id: '4',
+    id: '5',
     title: 'tRFs in Alzheimer\'s Disease',
     description: 'tRNA-derived Fragments in Alzheimer\'s Microglia',
     imageUrl: '/portfolio/tRFtile.png',
     link: '/trf'
   },
   {
-    id: '5',
+    id: '6',
     title: 'GOBOT',
     description: 'Graphical Interface for the OBO ROBOT Library',
     imageUrl: '/portfolio/robot_jasmine.jpg',
     link: '/gobot'
   },
   {
-    id: '6',
+    id: '7',
     title: 'Silly Embedded Projects',
     description: 'Object Avoidance & Arduino iPod',
     imageUrl: '/portfolio/embeddedtile.jpg',
