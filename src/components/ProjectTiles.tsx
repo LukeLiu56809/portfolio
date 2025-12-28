@@ -75,7 +75,7 @@ const ProjectTiles: React.FC = () => {
             }}
           >
             <div className="project-tile-image">
-              <img src={project.imageUrl} alt={project.title} />
+              <img src={project.imageUrl} alt={project.title} loading="lazy" />
             </div>
               <div className="project-tile-content">
                 <h3 className="project-tile-title">{project.title}</h3>

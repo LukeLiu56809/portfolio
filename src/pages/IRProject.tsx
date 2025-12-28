@@ -56,6 +56,7 @@ const IRProject: React.FC = () => {
                 src="/portfolio/IRDemo.png" 
                 alt="Pipeline Output" 
                 className="project-main-image"
+                loading="lazy"
                 style={{ maxWidth: '80%', display: 'block', margin: '0 auto' }}
               />
               <p className="image-caption" style={{ textAlign: 'center' }}>Pipeline Output</p>

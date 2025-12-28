@@ -66,6 +66,7 @@ const RoomSenseProject: React.FC = () => {
                 src="/portfolio/RoomSenseArchitecture.png" 
                 alt="System Architecture" 
                 className="project-main-image"
+                loading="lazy"
                 style={{ maxWidth: '80%', display: 'block', margin: '0 auto' }}
               />
               <p className="image-caption" style={{ textAlign: 'center' }}>System architecture</p>
@@ -80,6 +81,7 @@ const RoomSenseProject: React.FC = () => {
                 src="/portfolio/roomSenseLandmarks.png" 
                 alt="Facial Landmarks Extracted From Head Bindings to Calculate Metrics" 
                 className="project-main-image"
+                loading="lazy"
                 style={{ maxWidth: '80%', display: 'block', margin: '0 auto' }}
               />
               <p className="image-caption" style={{ textAlign: 'center' }}>Facial landmarks extracted from Head Bindings to calculate metrics</p>
@@ -94,6 +96,7 @@ const RoomSenseProject: React.FC = () => {
                 src="/portfolio/barPenalization.png" 
                 alt="Engagement Bar Penalties as Student Attention Decreases (Shoutout to my buddy Ertugrul!!!)" 
                 className="project-main-image"
+                loading="lazy"
                 style={{ maxWidth: '80%', display: 'block', margin: '0 auto' }}
               />
               <p className="image-caption" style={{ textAlign: 'center' }}>Engagement Bar Penalties as Student Attention Decreases</p>
@@ -108,6 +111,7 @@ const RoomSenseProject: React.FC = () => {
                 src="/portfolio/workflow.png" 
                 alt="RoomSense Workflow" 
                 className="project-main-image"
+                loading="lazy"
                 style={{ maxWidth: '80%', display: 'block', margin: '0 auto' }}
               />
               <p className="image-caption" style={{ textAlign: 'center' }}>RoomSense Workflow</p>

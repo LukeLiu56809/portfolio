@@ -65,6 +65,7 @@ const SharkProject: React.FC = () => {
                 src="/portfolio/calibration.jpg" 
                 alt="Camera Calibration" 
                 className="project-main-image"
+                loading="lazy"
                 style={{ maxWidth: '80%', display: 'block', margin: '0 auto' }}
               />
               <p className="image-caption" style={{ textAlign: 'center' }}>Camera Calibration</p>

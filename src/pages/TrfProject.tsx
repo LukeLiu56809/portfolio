@@ -105,6 +105,7 @@ const TrfProject: React.FC = () => {
                     src="/portfolio/PNGAAICposter.png" 
                     alt="AAIC Poster Preview" 
                     className="poster-preview"
+                    loading="lazy"
                   />
                   <div className="poster-overlay">
                     <div className="poster-overlay-text">Click to view full poster</div>

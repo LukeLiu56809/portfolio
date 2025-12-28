@@ -55,6 +55,7 @@ const GobotProject: React.FC = () => {
                 src="/portfolio/GOBOT.png" 
                 alt="GOBOT Interface Screenshot" 
                 className="project-main-image"
+                loading="lazy"
               />
               <p className="image-caption" style={{ textAlign: 'center' }}>GOBOT UI</p>
             </div>

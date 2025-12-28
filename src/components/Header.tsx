@@ -34,6 +34,9 @@ const Header: React.FC = () => {
     if (location.pathname === '/embedded') {
       return 'Silly Embedded Projects';
     }
+    if (location.pathname === '/roomsense') {
+      return 'RoomSense';
+    }
     if (location.pathname === '/cv') {
       return 'CV';
     }
@@ -45,7 +48,7 @@ const Header: React.FC = () => {
     const title = getPageTitle();
     
     // Apply wave animation to all project pages and CV page
-    if (['/gobot', '/trf', '/shark', '/ir', '/blv', '/embedded', '/cv'].includes(location.pathname)) {
+    if (['/gobot', '/trf', '/shark', '/ir', '/blv', '/embedded', '/roomsense', '/cv'].includes(location.pathname)) {
       // Split into individual letters and spaces
       const letters = title.split('').map((char, index) => (
         <span key={index} className="wave-letter">
