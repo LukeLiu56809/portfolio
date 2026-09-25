@@ -48,7 +48,7 @@ const EmbeddedProject: React.FC = () => {
 
          <div className="project-main-image-section" style={{ textAlign: 'center' }}>
            <video 
-             src="/portfolio/glasses2.mov"
+             src="/portfolio/glasses2.mp4"
              controls
              preload="metadata"
              className="project-main-image"
@@ -84,7 +84,7 @@ const EmbeddedProject: React.FC = () => {
 
           <div className="project-main-image-section" style={{ textAlign: 'center' }}>
             <video 
-              src="/portfolio/ipoddemo.MOV"
+              src="/portfolio/ipoddemo.mp4"
               controls
               preload="metadata"
               className="project-main-image"
